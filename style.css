@@ -25,6 +25,7 @@ body {
   transition: 0.5s;
   color: #fff;
   overflow: hidden;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
 }
 
 .loader:hover {

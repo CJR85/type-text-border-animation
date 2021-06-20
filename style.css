@@ -126,9 +126,22 @@ body {
   letter-spacing: 2px;
   transition: 0.5s;
   border-right: 1px solid #03e9f4;
+  animation: typing 5s steps(10) infinite;
 }
 
 .loader:hover h3 {
   color: #111;
   border-right: 1px solid #111;
+}
+
+@keyframes typing {
+  0%,
+  90%,
+  100% {
+    width: 0px;
+  }
+  30%,
+  60% {
+    width: 123.89px;
+  }
 }

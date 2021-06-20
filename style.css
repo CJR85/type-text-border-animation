@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #121213;
+}
+
+.loader {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #1a1a1f;
+}
